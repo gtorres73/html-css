@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    table{
+        border-collapse: collapse;
+    }
+    th{
+        padding: 10px;
+        border: 1px solid black;
+        background-color: grey;
+        color: white;
+        text-align: center;
+        width: 100px;
+        height: 30px;
+        
+    }
+    td{
+        padding: 10px;
+        border: 1px solid black;
+        text-align: center;
+        width: 100px;
+        height: 30px;
+    }
+
+    td.t1{ 
+        background-color: grey;
+        color: white;
+        font-weight: bold;
+
+    }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+            <th rowspan="2">Area</th>
+            <th rowspan="2">Disciplinas</th>
+            <th colspan="2">notas</th>
+            <th rowspan="2">media</th>
+            </tr>
+        <tr>
+            <td class="t1">notas1</td>
+            <td class="t1">notas2</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th rowspan="4">exatas</th>
+            <td>Matematica</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>fisica</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td colspan="">Quimica</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td colspan="">Biologia</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+    <thead>
+        <th colspan="4" style="text-align: left;">Média de exatas</th>
+        <td class="t1">5</td>
+    </thead>
+    <tbody>
+            <th rowspan="2">Humanas</th>
+            <td>Matematica</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+        <td colspan="">Geografia</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <th colspan="4" style="text-align: left;">Média de Humanas</th>
+        <td class="t1">5</td>
+    </tfoot>
+        
+
+    </table>
+</body>
+</html>
