@@ -1,0 +1,24 @@
+/* Celular pequeno */
+@media (max-width: 480px) {
+    /* estilos para celulares menores */
+}
+
+/* Celulares padrão */
+@media (min-width: 481px) and (max-width: 768px) {
+    /* estilos para smartphones maiores */
+}
+
+/* Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* estilos para tablets */
+}
+
+/* Laptops/Desktops médios */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    /* estilos para telas médias */
+}
+
+/* Grandes telas */
+@media (min-width: 1441px) {
+    /* estilos para telas muito grandes */
+}
