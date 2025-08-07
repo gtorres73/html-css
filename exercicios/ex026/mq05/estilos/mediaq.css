@@ -1,0 +1,63 @@
+/* Smartphones (até 600px) */
+@media screen and (max-width: 600px) {
+    span#menu{
+    display: block;
+   }
+   menu{
+    display: none;
+   }
+}
+
+/* Tablets em modo retrato (601px a 768px) */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  span#menu{
+    display: none;
+    
+   }
+   menu{
+    display: inline-block;
+    background-color: red;
+   }
+}
+@media screen and (min-width: 769px) {
+    span#menu {
+        display: none; /* Esconde o ícone de menu */
+        
+    }
+
+    menu#itens {
+        display: block; /* Mostra o menu normalmente */
+        
+    }
+
+    menu#itens ul {
+        display: flex; /* Coloca os <li> na horizontal */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    menu#itens ul li {
+        margin-right: 10px;
+        
+    }
+
+    menu#itens ul li a {
+        display: block;
+        background-color: #444;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+    menu#itens ul li a:hover {
+        background-color: #666;
+        
+    }
+}
+
+main {
+    width: 768px;
+}
