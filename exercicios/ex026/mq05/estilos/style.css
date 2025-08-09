@@ -82,3 +82,25 @@ article > p {
     margin-bottom: 20px;
 
 }
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre ícone e título */
+}
+
+#menu {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.campo-senha {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.campo-senha .material-symbols-outlined {
+    font-size: 1.5rem;
+    color: #333;
+}

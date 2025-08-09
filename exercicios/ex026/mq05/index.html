@@ -7,11 +7,22 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="estilos/mediaq.css">
     <title>Meu site</title>
+    <style>
+        .campo-senha {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .campo-senha .material-symbols-outlined {
+            font-size: 1.5rem;
+            color: #333;
+        }
+    </style>
 </head>
 <bod onresize="musouTamanho()">
     <header>
-        <h1>meu site</h1>
         <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <h1>meu site</h1>
         <menu id="itens">
             <ul>
                 <li><a href="#">Opcao 1</a></li>
@@ -37,6 +48,11 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio cumque, quo id harum quibusdam reprehenderit, et minima earum voluptas ad voluptate possimus asperiores ullam quasi nobis nulla vitae aut similique?
             </p>
         </article>
+        <div class="campo-senha">
+            <span class="material-symbols-outlined">person</span>
+            <input type="email" placeholder="seu e-mail">
+            <span class="texto-campo">Login</span>
+        </div>
         <script>
 
             function mudouTamanho() {
