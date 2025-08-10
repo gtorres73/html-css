@@ -1,0 +1,47 @@
+.exemplo{
+    border: 1px solid black ;
+    overflow: auto;
+}
+.exemplo img {
+    float: left;
+    overflow: auto;
+}
+
+ul {
+    
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+li a {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.login {
+    float: right;
+}
+
+img{
+    margin: 10px;
+    padding: 10px;
+}
+div p {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
